@@ -21,7 +21,7 @@ Method CONNECT merupakan method yang digunakan untuk merequest dibukanya koneksi
 Methode TRACE merupakan method yang digunakan untum mengambalikan request yang dikirim daripada mengeksekusinya. Method ini digunakna untuk debug atau testing, bisa juga untuk melihat apakah request kita mengalami mengalami modifikasi dari antara node 
 
 
-3. Cara kerja HTTP
+# 3. Cara kerja HTTP
 HTTP akan menjalan dan membentuk TCP connection ketika client mengirim HTTP request
 - client akan merequest ke server, request ini termusuk method yang akan digunakan seperti GET, POST, PUT, DELETE 
 - Server akan menerima request dan memprosesnya
