@@ -22,7 +22,7 @@ Methode TRACE merupakan method yang digunakan untum mengambalikan request yang d
 
 
 # 3. Cara kerja HTTP
-HTTP akan menjalan dan membentuk TCP connection ketika client mengirim HTTP request
+HTTP akan menjalankan dan membentuk TCP connection ketika client mengirim HTTP request
 - client akan merequest ke server, request ini termusuk method yang akan digunakan seperti GET, POST, PUT, DELETE 
 - Server akan menerima request dan memprosesnya
 - Server akan mengembalikan respons ke client, respond dapat berupa kode status, header, atau data yang direquest
