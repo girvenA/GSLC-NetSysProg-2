@@ -1,6 +1,6 @@
 # GSLC-NetSysProg-2
 
-1. Pengertian dari method-method yang ada di http
+# 1. Pengertian dari method-method yang ada di http
 # GET
 Method GET merupakan method yang digunakan untuk meminta data dari resource tertentu. Method GET memerintah server untuk mengirimkan resource target dan server akan mengirim resource dalam respons's body. Request GET dapat dicache, dan tidak boleh ada perubahan atau menghapus data diserver
 # POST
