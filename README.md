@@ -1,6 +1,6 @@
 # GSLC-NetSysProg-2
 
-1. Pengertian dari method-method yang ada di http
+# 1. Pengertian dari method-method yang ada di http
 # GET
 Method GET merupakan method yang digunakan untuk meminta data dari resource tertentu. Method GET memerintah server untuk mengirimkan resource target dan server akan mengirim resource dalam respons's body. Request GET dapat dicache, dan tidak boleh ada perubahan atau menghapus data diserver
 # POST
@@ -21,8 +21,8 @@ Method CONNECT merupakan method yang digunakan untuk merequest dibukanya koneksi
 Methode TRACE merupakan method yang digunakan untum mengambalikan request yang dikirim daripada mengeksekusinya. Method ini digunakna untuk debug atau testing, bisa juga untuk melihat apakah request kita mengalami mengalami modifikasi dari antara node 
 
 
-3. Cara kerja HTTP
-HTTP akan menjalan dan membentuk TCP connection ketika client mengirim HTTP request
+# 3. Cara kerja HTTP
+HTTP akan menjalankan dan membentuk TCP connection ketika client mengirim HTTP request
 - client akan merequest ke server, request ini termusuk method yang akan digunakan seperti GET, POST, PUT, DELETE 
 - Server akan menerima request dan memprosesnya
 - Server akan mengembalikan respons ke client, respond dapat berupa kode status, header, atau data yang direquest
