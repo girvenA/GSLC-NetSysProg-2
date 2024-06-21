@@ -26,9 +26,8 @@ func menu() {
 
 	var choose int = 0
 	for {
-		fmt.Println("Session 8")
-		fmt.Println("1. Receive data (get method)")
-		fmt.Println("2. Send data (post method)")
+		fmt.Println("1. Receive Message")
+		fmt.Println("2. Send Message")
 		fmt.Println(">> ")
 		fmt.Scanf("%d", &choose)
 		switch choose {
