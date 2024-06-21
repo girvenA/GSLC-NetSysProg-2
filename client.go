@@ -22,7 +22,7 @@ func menu() {
 		},
 	}
 
-	url := "http://localhost:80/testing"
+	url := "http://localhost:8080/testing"
 
 	var choose int = 0
 	for {
