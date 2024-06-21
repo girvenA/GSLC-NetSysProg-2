@@ -9,7 +9,7 @@ func main() {
 
 	mux := http.NewServeMux()
 	mux.Handle("/testing", http.HandlerFunc(getHandler))
-	http.ListenAndServe(":8080", mux)
+	http.ListenAndServe(":80", mux)
 }
 
 func getHandler(w http.ResponseWriter, r *http.Request) {
